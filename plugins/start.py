@@ -14,8 +14,7 @@ startText = """
  ➻ /pp : ʀᴇᴠᴇʀsᴇ ɪᴍᴀɢᴇ sᴇᴀʀᴄʜ
  ➻ /gemini : ɢᴇᴍɪɴɪ ʙʏ ɢᴏᴏɢʟᴇ
  ➻ /img : ᴄʀᴇᴀᴛᴇ ᴀɪ ɪᴍᴀɢᴇs
-
- ➻ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ - @AnimeKunChannel
+ 
 """
 
 @Client.on_message(filters.command(["start","help","repo","source"]))
@@ -25,7 +24,7 @@ async def start(_: Client, m: t.Message):
         reply_markup=t.InlineKeyboardMarkup(
             [
                 [
-                    t.InlineKeyboardButton(text="ᴊᴏɪɴ ᴍy ᴄʜᴀɴɴᴇʟ",url="https://t.me/Anime_Kun_Channel")
+                    t.InlineKeyboardButton(text="Deployer",url="https://t.me/itsniloybhowmick")
                 ]
             ]
         )
