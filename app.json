@@ -1,0 +1,36 @@
+{
+    "name": "ᴅᴀɪsʏ (@codeflix_bots)",
+    "description": "An AI Related Utility Bot",
+    "keywords": [
+        "telegram",
+        "bot",
+        "ai",
+        "erotixe",
+        "daisybot",
+        "stablediffusion",
+        "llm"
+    ],
+    "repository": "https://github.com/erotixe/daisyAI",
+    "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-python"
+        }
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token. Get one from @BotFather duh",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get API_ID from my.telegram.org",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get API_HASH from my.telegram.org",
+            "required": true,
+            "value": ""
+        }
+    }
+}
